@@ -10,7 +10,7 @@ Instead of the Katz indexes used by HOPE, TREXPEN builds on exponential proximit
 An algorithm for converting a Euclidean node arrangement to a hyperbolic one. It assumes that in the Euclidean embedding the large topological proximities are reflected by high inner products - these will be converted to small hyperbolic distances.
 
 # TREXPIC=*TR*ansformation of *EX*ponential shortest *P*ath lengths to hyperbol*IC* distances
-A dimension reduction technique for obtaining embeddings directly in the hyperbolic space instead of using a Euclidean-hyperbolic conversion. This implementation can be used on weighted networks too; smaller weights should correspond to larger expected geometrical proximities (i.e., larger "similarities").
+An SVD-based dimension reduction technique for obtaining embeddings directly in the hyperbolic space instead of using a Euclidean-hyperbolic conversion. This implementation can be used on weighted networks too; smaller weights should correspond to larger expected geometrical proximities (i.e., larger "similarities").
 
 
 # Reference
